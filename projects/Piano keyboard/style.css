@@ -8,50 +8,49 @@ h1 {
   
   .container {
     position: relative;
-
-    
+    text-align: center;
   }
+
   
   .C {
     position: absolute;
     bottom: 20px;
-    left: 70px;
+    left: 740px;
     font-size: 50px;
-    text-align: center;
   }
   .D {
-    position: absolute;
-    bottom: 20px;
-    left: 270px;
-    font-size: 50px;
-  }
-  .E {
-    position: absolute;
-    bottom: 20px;
-    left: 410px;
-    font-size: 50px;
-  }
-  .F {
-    position: absolute;
-    bottom: 20px;
-    left: 580px;
-    font-size: 50px;
-  }
-  .G {
-    position: absolute;
-    bottom: 20px;
-    left: 750px;
-    font-size: 50px;
-  }
-  .A {
     position: absolute;
     bottom: 20px;
     left: 920px;
     font-size: 50px;
   }
+  .E {
+    position: absolute;
+    bottom: 20px;
+    left: 1090px;
+    font-size: 50px;
+  }
+  .F {
+    position: absolute;
+    bottom: 20px;
+    left: 1250px;
+    font-size: 50px;
+  }
+  .G {
+    position: absolute;
+    bottom: 20px;
+    left: 1420px;
+    font-size: 50px;
+  }
+  .A {
+    position: absolute;
+    bottom: 20px;
+    left: 1600px;
+    font-size: 50px;
+  }
   .H {
     position: absolute;
     bottom: 20px;
-    left: 1100px;
+    left: 1770px;
     font-size: 50px;
   }
