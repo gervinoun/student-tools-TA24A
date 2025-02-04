@@ -25,7 +25,13 @@ addEventListener("keydown", function (nupp) {
      } else if (nupp.key === "e") {
         e_css.style = " "
         e_css.style = "position: absolute; bottom: 10px; left: 1060px; font-size: 50px; border: green; background-color: green; border-radius: 50px; width: 100px; height: 100px"
-     }    
+     } else if (nupp.key === "f") {
+        f_css.style = " "
+        f_css.style = "position: absolute; bottom: 10px; left: 1220px; font-size: 50px; border: green; background-color: green; border-radius: 50px; width: 100px; height: 100px";
+     } else if (nupp.key === "g") {
+        g_css.style = " "
+        g_css.style = "position: absolute; bottom: 10px; left: 1390px; font-size: 50px; background-color: green; border-radius: 50px; width: 100px; height: 100px";
+     }
 });
 addEventListener("keyup", function (nupper) {
     if (nupper.key === "c") {
@@ -37,5 +43,11 @@ addEventListener("keyup", function (nupper) {
     } else if (nupper.key === "e") {
         e_css.style = " "
         e_css.style = "position: absolute; bottom: 20px; left: 1090px; font-size: 50px;"
-    } 
+    } else if (nupper.key === "f") {
+        f_css.style = " "
+        f_css.style = "position: absolute; bottom: 20px; left: 1250px; font-size: 50px;";
+    } else if (nupper.key === "g") {
+        g_css.style = " "
+        g_css.style = "position: absolute; bottom: 20px; left: 1420px; font-size: 50px;";
+    }
 });
