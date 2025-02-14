@@ -16,8 +16,8 @@ let activeOscillators = {};
 
 
 addEventListener("keydown", function (nupp) {
-    if (nupp.key === "c") {
-        if (nupp.key === "c" && !activeOscillators["c"]) {
+    if (nupp.key === "d") {
+        if (nupp.key === "d" && !activeOscillators["c"]) {
             const audioContext = new (window.AudioContext || window.webkitAudioContext)();
             const oscillator = audioContext.createOscillator();
             oscillator.frequency.setValueAtTime(261.63, audioContext.currentTime);
@@ -31,8 +31,8 @@ addEventListener("keydown", function (nupp) {
         } 
         c_css.style = " "
         c_css.style = "position: absolute; bottom: 10px; left: 710px; font-size: 50px; border: green; background-color: green; border-radius: 50px; width: 100px; height: 100px"
-     } else if (nupp.key === "d") {
-        if (nupp.key === "d" && !activeOscillators["d"]) {
+     } else if (nupp.key === "f") {
+        if (nupp.key === "f" && !activeOscillators["d"]) {
             const audioContext = new (window.AudioContext || window.webkitAudioContext)();
             const oscillator = audioContext.createOscillator();
             oscillator.frequency.setValueAtTime(293.66, audioContext.currentTime);
@@ -46,8 +46,8 @@ addEventListener("keydown", function (nupp) {
         }
         d_css.style = " "
         d_css.style = "position: absolute; bottom: 10px; left: 890px; font-size: 50px; border: green; background-color: green; border-radius: 50px; width: 100px; height: 100px"
-     } else if (nupp.key === "e") {
-        if (nupp.key === "e" && !activeOscillators["e"]) {
+     } else if (nupp.key === "g") {
+        if (nupp.key === "g" && !activeOscillators["e"]) {
             const audioContext = new (window.AudioContext || window.webkitAudioContext)();
             const oscillator = audioContext.createOscillator();
             oscillator.frequency.setValueAtTime(329.63, audioContext.currentTime);
@@ -61,8 +61,8 @@ addEventListener("keydown", function (nupp) {
         }
         e_css.style = " "
         e_css.style = "position: absolute; bottom: 10px; left: 1060px; font-size: 50px; border: green; background-color: green; border-radius: 50px; width: 100px; height: 100px"
-     } else if (nupp.key === "f") {
-        if (nupp.key === "f" && !activeOscillators["f"]) {
+     } else if (nupp.key === "h") {
+        if (nupp.key === "h" && !activeOscillators["f"]) {
             const audioContext = new (window.AudioContext || window.webkitAudioContext)();
             const oscillator = audioContext.createOscillator();
             oscillator.frequency.setValueAtTime(349.23, audioContext.currentTime);
@@ -76,8 +76,8 @@ addEventListener("keydown", function (nupp) {
         }
         f_css.style = " "
         f_css.style = "position: absolute; bottom: 10px; left: 1220px; font-size: 50px; border: green; background-color: green; border-radius: 50px; width: 100px; height: 100px";
-     } else if (nupp.key === "g") {
-        if (nupp.key === "g" && !activeOscillators["g"]) {
+     } else if (nupp.key === "j") {
+        if (nupp.key === "j" && !activeOscillators["g"]) {
             const audioContext = new (window.AudioContext || window.webkitAudioContext)();
             const oscillator = audioContext.createOscillator();
             oscillator.frequency.setValueAtTime(392.00, audioContext.currentTime);
@@ -91,8 +91,8 @@ addEventListener("keydown", function (nupp) {
         }
         g_css.style = " "
         g_css.style = "position: absolute; bottom: 10px; left: 1390px; font-size: 50px; background-color: green; border-radius: 50px; width: 100px; height: 100px";
-     } else if (nupp.key === "a") {
-        if (nupp.key === "a" && !activeOscillators["a"]) {
+     } else if (nupp.key === "k") {
+        if (nupp.key === "k" && !activeOscillators["a"]) {
             const audioContext = new (window.AudioContext || window.webkitAudioContext)();
             const oscillator = audioContext.createOscillator();
             oscillator.frequency.setValueAtTime(440.00, audioContext.currentTime);
@@ -106,8 +106,8 @@ addEventListener("keydown", function (nupp) {
         }
         a_css.style = " "
         a_css.style = "position: absolute; bottom: 10px; left: 1570px; font-size: 50px; background-color: green; border-radius: 50px; width: 100px; height: 100px";
-     } else if (nupp.key === "h") {
-        if (nupp.key === "h" && !activeOscillators["h"]) {
+     } else if (nupp.key === "l") {
+        if (nupp.key === "l" && !activeOscillators["h"]) {
             const audioContext = new (window.AudioContext || window.webkitAudioContext)();
             const oscillator = audioContext.createOscillator();
             oscillator.frequency.setValueAtTime(493.88, audioContext.currentTime);
@@ -125,7 +125,7 @@ addEventListener("keydown", function (nupp) {
 }); 
 
 addEventListener("keyup", function (nupper) {
-    if (nupper.key === "c") {
+    if (nupper.key === "d") {
         if (activeOscillators["c"]) {
             activeOscillators["c"].stop();
             delete activeOscillators["c"];
@@ -134,42 +134,42 @@ addEventListener("keyup", function (nupper) {
         c_css.style = " "
         c_css.style = "position: absolute; bottom: 20px; left: 740px; font-size: 50px;";
         
-    } else if (nupper.key === "d") {
+    } else if (nupper.key === "f") {
         if (activeOscillators["d"]) {
             activeOscillators["d"].stop();
             delete activeOscillators["d"];
         }
         d_css.style = " "
         d_css.style = "position: absolute; bottom: 20px; left: 920px; font-size: 50px;";
-    } else if (nupper.key === "e") {
+    } else if (nupper.key === "g") {
         if (activeOscillators["e"]) {
             activeOscillators["e"].stop();
             delete activeOscillators["e"];
         }
         e_css.style = " "
         e_css.style = "position: absolute; bottom: 20px; left: 1090px; font-size: 50px;"
-    } else if (nupper.key === "f") {
+    } else if (nupper.key === "h") {
         if (activeOscillators["f"]) {
             activeOscillators["f"].stop();
             delete activeOscillators["f"];
         }
         f_css.style = " "
         f_css.style = "position: absolute; bottom: 20px; left: 1250px; font-size: 50px;";
-    } else if (nupper.key === "g") {
+    } else if (nupper.key === "j") {
         if (activeOscillators["g"]) {
             activeOscillators["g"].stop();
             delete activeOscillators["g"];
         }
         g_css.style = " "
         g_css.style = "position: absolute; bottom: 20px; left: 1420px; font-size: 50px;";
-    } else if (nupper.key === "a") {
+    } else if (nupper.key === "k") {
         if (activeOscillators["a"]) {
             activeOscillators["a"].stop();
             delete activeOscillators["a"];
         }
         a_css.style = " "
         a_css.style = "position: absolute; bottom: 20px; left: 1600px; font-size: 50px;";
-    } else if (nupper.key === "h") {
+    } else if (nupper.key === "l") {
         if (activeOscillators["h"]) {
             activeOscillators["h"].stop();
             delete activeOscillators["h"];
