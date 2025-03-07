@@ -178,3 +178,14 @@ addEventListener("keyup", function (nupper) {
         h_css.style = "position: absolute; bottom: 20px; left: 1770px; font-size: 50px;";
     } 
 });
+
+
+function getfrequencynote(note) {
+    c; 261.63,
+    d; 293.66,
+    e; 329.63,
+    f; 349.23,
+    g; 392.00,
+    a; 440.00,
+    h; 493.88
+}
